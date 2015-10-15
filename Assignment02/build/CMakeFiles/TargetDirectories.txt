@@ -1,0 +1,7 @@
+/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment02/build/exercises/raytracer/CMakeFiles/raytracer.dir
+/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment02/build/exercises/task/CMakeFiles/task.dir
+/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment02/build/depend/GLFW-3.0.4/CMakeFiles/ALL_BUILD.dir
+/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment02/build/depend/GLFW-3.0.4/CMakeFiles/ZERO_CHECK.dir
+/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment02/build/exercises/opengl/CMakeFiles/opengl.dir
+/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment02/build/depend/glew-1.10.0/CMakeFiles/glew.dir
+/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment02/build/depend/GLFW-3.0.4/src/CMakeFiles/glfw.dir
