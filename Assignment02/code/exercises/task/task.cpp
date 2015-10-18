@@ -6,9 +6,6 @@
 #include <opengl/Camera.hpp>
 #include <raytracer/Math.hpp>
 
-
-
-
 int gWidth = 800;  ///< The width of the OpenGL window
 int gHeight = 600; ///< The height of the OpenGL window
 GLFWwindow* gGLFWWindow;
@@ -26,21 +23,41 @@ float gLastFrameTime=0.f;
 
 std::string gDataPath= ""; ///< The path pointing to the resources (OBJ, shader)
 // Display the dice
+
 void displayDice()
 {
-
+//    gDice[5]->modelMatrix()
+//    .translate(sin(30),0,0)
+//    .rotate(5,ogl::Vec3f(0,0,1))
+//    .translate(-sin(30),0,0)
+//    ;
+    //anination part 2.2
+    int rotationTime = 8;
+    double time = glfwGetTime();
+    double rotation = time/rotationTime - floor(time/rotationTime); // Rotation goes from 0 to 1 and repeats...
+    double movementFactor = 0.05;
     
-    if(glfwGetTime() >= 0 and glfwGetTime() <=8.000){
-        
-        //gDice[5]->modelMatrix().rotate(gLastFrameTime*100.1f,ogl::Vec3f(0,0,1)).translate(0.1, -0.1, 0);
-        //gDice[5]->modelMatrix().rotate(glfwGetTime(), ogl::Vec3f(0,0,1));
-        
-        gDice[5]->modelMatrix().translate( 0.1*cos(glfwGetTime()), -0.1*sin(glfwGetTime()), 0);
+    if(rotation < 0.25){
+        gDice[5]->modelMatrix()
+        .translate( movementFactor, 0, 0)
+        .translate(0, 0.05*sin(time*rotationTime*4), 0)
+        ;
+    } else if(0.25 <= rotation && rotation < 0.5){
+        gDice[5]->modelMatrix()
+        .translate( 0, movementFactor , 0)
+        .translate( 0.05*sin(time*rotationTime*4),0,0)
+        ;
+    } else if(0.5 <= rotation && rotation < 0.75){
+        gDice[5]->modelMatrix()
+        .translate( -movementFactor, 0 , 0)
+        .translate(0, 0.05*sin(time*rotationTime*4),0)
+        ;
+    } else {
+        gDice[5]->modelMatrix()
+        .translate( 0, -movementFactor , 0)
+        .translate( 0.05*sin(time*rotationTime*4), 0, 0)
+        ;
     }
-   /* if(glfwGetTime() >= 4.5000 and glfwGetTime() <= 8.0000){
-        gDice[5]->modelMatrix().translate( -(0.1*sin(glfwGetTime())), 0.1*sin(glfwGetTime()*10), 0);
-    }*/
-
     
     for(size_t i=0;i<gDice.size();++i)
     {
@@ -237,18 +254,16 @@ bool initDice()
     //gDice[4] should be the cube with number 5 facing the camera
     gDice[4]->modelMatrix().translate(2.5,2.5,3);
     
-    // Hint for gDice[5] that stands on the tip showing number 6
-    // the rotation that is performed on this die is equivalent to the rotation
-    // of the vector (1,1,1)^T onto the z-axis (0,0,1).
-    // It is helpful to compute this transformation on a sheet of paper.
-    
     //gDice[5] should be the cube with number 6 facing the camera
     
     //2.1 (a)
-    //gDice[5]->modelMatrix().rotate(90.f,ogl::Vec3f(0,1,0)).translate(0,0,0.5);
+//    gDice[5]->modelMatrix().rotate(90.f,ogl::Vec3f(0,1,0)).translate(0,0,0.5);
     
     //2.1 (b)
+//    gDice[5]->modelMatrix().rotate(90.f,ogl::Vec3f(1,1,0)).rotate(-90.f,ogl::Vec3f(1,0,0)).translate(2,3,4.5);
     
+    //2.2
+//    gDice[5]->modelMatrix().translate( 0, -2, 0);
     
     return true;
 }
