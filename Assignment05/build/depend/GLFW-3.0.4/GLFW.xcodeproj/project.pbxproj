@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0B8E660F209547B2A572C365 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6DFC1B824E1C4276B34497A8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6CA9175962664979A228B92B /* CMake Rules */,
+			);
+			dependencies = (
+				4D5924C25C324DF68ECB378A /* PBXTargetDependency */,
+				8E64990AC78D45F0B213D66A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9BF856A581414D6AAAB13DCC /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D32833798C7A4EEA924EB2B3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				24EE69D507824961822D3EFF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04477FD6557645AC92E3D099 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/internal.h */ = {isa = PBXBuildFile; fileRef = B754265278DA46A39147C254 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0C2A39984CBC471696E05106 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 5D227F7C38A5422CB20192CE /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		34DB56AA6DA144FC8B7926B3 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/context.c */ = {isa = PBXBuildFile; fileRef = DED00C8AF2FC4D738A6D8241 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3A8D0F3E90C54B7A9E9228FF /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 493E1ECBE0E84766BC856B98 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
+		3D34D0181EC5497B8EC15DF9 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 2EDBB4F02EC446C49FA19291 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		45A0B04D1D2E463EBCE112C4 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 1B345ADFBDB44DA38766F1B2 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
+		499344DB8F1C419F9206755B /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = B0F9D0141E264BBE9E8E84DC /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src/glfw_config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5753621621B640AB9305DB14 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3BE62977A5834AB2A2B169A7 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		5DC2996058E14DBBA3DEE3E2 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = D93F70275DAB49B28A844F0D /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
+		63F14484B49643D699F95370 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = F160CB1A3BEE4C99AF519902 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
+		648FF5735E0B4E3685359A62 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/input.c */ = {isa = PBXBuildFile; fileRef = 0A6BF3F306F54B568AF9024E /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
+		6B588A9EB31B4F9989ADA9FB /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/joystick.c */ = {isa = PBXBuildFile; fileRef = C155D2CD12094A33BC6E5CDA /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/joystick.c */; settings = {COMPILER_FLAGS = ""; }; };
+		719D3E5FB7A243A9A42EEF21 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/time.c */ = {isa = PBXBuildFile; fileRef = DDC187B1B7F84FADB42E4772 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		7D00D80CC65D4DC08B7C430F /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/clipboard.c */ = {isa = PBXBuildFile; fileRef = D1C78B1059E24DC486BF736B /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/clipboard.c */; settings = {COMPILER_FLAGS = ""; }; };
+		801E37CA51A346ED9245CBD8 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/nsgl_platform.h */ = {isa = PBXBuildFile; fileRef = D3E3F9A1D56A4858B5B27AC2 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/nsgl_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		81351168FEED41A6B8241DE7 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 914678B6317B4E4AB36083A9 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
+		ACEF2F1FCEAF47178F015F42 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/init.c */ = {isa = PBXBuildFile; fileRef = 704A9568E0F0435EB4EF4BC0 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C8F8180B82324B24BAFCDB27 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 7ADBCC3F15FA432F871C9A51 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CDB4AC72F2ED4F2E95FECB89 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/window.c */ = {isa = PBXBuildFile; fileRef = 139D4720A20F423F88555F8F /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
+		CF68668FA99E4EF39A9EF151 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 04C2C8B754324097AE65D305 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
+		DB9B1C82DB294D4BAA4F600D /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_gamma.c */ = {isa = PBXBuildFile; fileRef = E0DCD86562FA463DBC8DA206 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_gamma.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E5910DD9C7C84904A9DF63E9 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_clipboard.m */ = {isa = PBXBuildFile; fileRef = DA778A3B530F4D9AAD317482 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_clipboard.m */; settings = {COMPILER_FLAGS = ""; }; };
+		F23C6267188D48F2A3A99F0F /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = C5A959885AC841AD91C31F06 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F3F0AD542F93458E8773D2B3 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/gamma.c */ = {isa = PBXBuildFile; fileRef = 5A337A2F88854527A3935125 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/gamma.c */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		34B5CF555BAD4A60BABB21E0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		4C60A3A8DAF3491BA6E99F5B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		662E0AA52E504EBE89C7434D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		795A6107FC104F789150C385 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		9D96BB777E7C430DB1EC1AD0 = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		352AF79B87144CFD88F15F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08BD68AF2A4F438C23B960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EB77FA270E41F1928E2A1D;
+			remoteInfo = glfw;
+		};
+		C17E805BC3D946019183A749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08BD68AF2A4F438C23B960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF856A581414D6AAAB13DCC;
+			remoteInfo = ZERO_CHECK;
+		};
+		C61A1966FDFD4C5F85ABE598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA08BD68AF2A4F438C23B960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF856A581414D6AAAB13DCC;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C2C8B754324097AE65D305 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		0A6BF3F306F54B568AF9024E /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		139D4720A20F423F88555F8F /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		1B345ADFBDB44DA38766F1B2 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		272E970B62ED4C0E8DEA5E7F /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2EDBB4F02EC446C49FA19291 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		3BE62977A5834AB2A2B169A7 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		493E1ECBE0E84766BC856B98 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		5A337A2F88854527A3935125 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/gamma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gamma.c; path = src/gamma.c; sourceTree = SOURCE_ROOT; };
+		5D227F7C38A5422CB20192CE /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		704A9568E0F0435EB4EF4BC0 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		7ADBCC3F15FA432F871C9A51 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		914678B6317B4E4AB36083A9 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		9745FFB7EF5D42839F0D8936 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9A4492A06F4D44D9BE3C5628 /* glfw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libglfw.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F9D0141E264BBE9E8E84DC /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../../../build/depend/GLFW-3.0.4/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		B754265278DA46A39147C254 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		C155D2CD12094A33BC6E5CDA /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/joystick.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joystick.c; path = src/joystick.c; sourceTree = SOURCE_ROOT; };
+		C5A959885AC841AD91C31F06 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		D1C78B1059E24DC486BF736B /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/clipboard.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = clipboard.c; path = src/clipboard.c; sourceTree = SOURCE_ROOT; };
+		D3E3F9A1D56A4858B5B27AC2 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/nsgl_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_platform.h; path = src/nsgl_platform.h; sourceTree = SOURCE_ROOT; };
+		D93F70275DAB49B28A844F0D /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		DA778A3B530F4D9AAD317482 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_clipboard.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_clipboard.m; path = src/cocoa_clipboard.m; sourceTree = SOURCE_ROOT; };
+		DDC187B1B7F84FADB42E4772 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = time.c; path = src/time.c; sourceTree = SOURCE_ROOT; };
+		DED00C8AF2FC4D738A6D8241 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		E0DCD86562FA463DBC8DA206 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_gamma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_gamma.c; path = src/cocoa_gamma.c; sourceTree = SOURCE_ROOT; };
+		F160CB1A3BEE4C99AF519902 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		159D21D680AA406696760A22 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F9D0141E264BBE9E8E84DC /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src/glfw_config.h */,
+				F160CB1A3BEE4C99AF519902 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/include/GLFW/glfw3.h */,
+				7ADBCC3F15FA432F871C9A51 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/include/GLFW/glfw3native.h */,
+				C5A959885AC841AD91C31F06 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_platform.h */,
+				B754265278DA46A39147C254 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/internal.h */,
+				D3E3F9A1D56A4858B5B27AC2 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/nsgl_platform.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		74D417BEC8514A74A37B8769 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9E4FEE0E23DC4150B539B97A /* CMake Rules */,
+				9745FFB7EF5D42839F0D8936 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		755608668C0241A4A9BE18E7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				74D417BEC8514A74A37B8769 /* ALL_BUILD */,
+				9E39C29FBE954A9A98A8FA2F /* ZERO_CHECK */,
+				BC50BD9B87154BA49D65AA2A /* glfw */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		8BDDDECADF134F5EB4D2D963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A4492A06F4D44D9BE3C5628 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E39C29FBE954A9A98A8FA2F /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				B725FCCE12F945188423FDA5 /* CMake Rules */,
+				272E970B62ED4C0E8DEA5E7F /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		9E4FEE0E23DC4150B539B97A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AFD1C40A3C4C42659E884A54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B725FCCE12F945188423FDA5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BC50BD9B87154BA49D65AA2A /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				D02D75468E5D445A88319CA0 /* Source Files */,
+				159D21D680AA406696760A22 /* Header Files */,
+				3BE62977A5834AB2A2B169A7 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		D02D75468E5D445A88319CA0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C78B1059E24DC486BF736B /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/clipboard.c */,
+				DA778A3B530F4D9AAD317482 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_clipboard.m */,
+				E0DCD86562FA463DBC8DA206 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_gamma.c */,
+				04C2C8B754324097AE65D305 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_init.m */,
+				493E1ECBE0E84766BC856B98 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_joystick.m */,
+				914678B6317B4E4AB36083A9 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_monitor.m */,
+				2EDBB4F02EC446C49FA19291 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_time.c */,
+				D93F70275DAB49B28A844F0D /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_window.m */,
+				DED00C8AF2FC4D738A6D8241 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/context.c */,
+				5A337A2F88854527A3935125 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/gamma.c */,
+				704A9568E0F0435EB4EF4BC0 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/init.c */,
+				0A6BF3F306F54B568AF9024E /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/input.c */,
+				C155D2CD12094A33BC6E5CDA /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/joystick.c */,
+				5D227F7C38A5422CB20192CE /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/monitor.c */,
+				1B345ADFBDB44DA38766F1B2 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/nsgl_context.m */,
+				DDC187B1B7F84FADB42E4772 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/time.c */,
+				139D4720A20F423F88555F8F /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FF350E27B56A4C5FB1584A1B = {
+			isa = PBXGroup;
+			children = (
+				755608668C0241A4A9BE18E7 /* Sources */,
+				AFD1C40A3C4C42659E884A54 /* Resources */,
+				8BDDDECADF134F5EB4D2D963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51EB77FA270E41F1928E2A1D /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA29C4F21A3B43B5B4103D7F /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				DE2ACBFA0F9A42FE85767FCE /* Sources */,
+				9097D6B85C8E416DA76D0A3E /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B26C324A5647404AA9958B42 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 9A4492A06F4D44D9BE3C5628 /* glfw */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA08BD68AF2A4F438C23B960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 6D72544AB2604F739509F1EA /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				662E0AA52E504EBE89C7434D /* Debug */,
+				34B5CF555BAD4A60BABB21E0 /* Release */,
+				4C60A3A8DAF3491BA6E99F5B /* MinSizeRel */,
+				795A6107FC104F789150C385 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FF350E27B56A4C5FB1584A1B;
+			projectDirPath = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4";
+			projectRoot = "";
+			targets = (
+				0B8E660F209547B2A572C365 /* ALL_BUILD */,
+				9BF856A581414D6AAAB13DCC /* ZERO_CHECK */,
+				51EB77FA270E41F1928E2A1D /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24EE69D507824961822D3EFF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4 -f /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		42E473EA67144BDB95E33A4B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6CA9175962664979A228B92B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4 -f /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9097D6B85C8E416DA76D0A3E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src -f /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src/CMakeScripts/glfw_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C1BEDB3022094C8BA8D57BF2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2ACBFA0F9A42FE85767FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D00D80CC65D4DC08B7C430F /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/clipboard.c */,
+				E5910DD9C7C84904A9DF63E9 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_clipboard.m */,
+				DB9B1C82DB294D4BAA4F600D /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_gamma.c */,
+				CF68668FA99E4EF39A9EF151 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_init.m */,
+				3A8D0F3E90C54B7A9E9228FF /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_joystick.m */,
+				81351168FEED41A6B8241DE7 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_monitor.m */,
+				3D34D0181EC5497B8EC15DF9 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_time.c */,
+				5DC2996058E14DBBA3DEE3E2 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/cocoa_window.m */,
+				34DB56AA6DA144FC8B7926B3 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/context.c */,
+				F3F0AD542F93458E8773D2B3 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/gamma.c */,
+				ACEF2F1FCEAF47178F015F42 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/init.c */,
+				648FF5735E0B4E3685359A62 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/input.c */,
+				6B588A9EB31B4F9989ADA9FB /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/joystick.c */,
+				0C2A39984CBC471696E05106 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/monitor.c */,
+				45A0B04D1D2E463EBCE112C4 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/nsgl_context.m */,
+				719D3E5FB7A243A9A42EEF21 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/time.c */,
+				CDB4AC72F2ED4F2E95FECB89 /* /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D5924C25C324DF68ECB378A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51EB77FA270E41F1928E2A1D /* glfw */;
+			targetProxy = 352AF79B87144CFD88F15F12 /* PBXContainerItemProxy */;
+		};
+		8E64990AC78D45F0B213D66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF856A581414D6AAAB13DCC /* ZERO_CHECK */;
+			targetProxy = C17E805BC3D946019183A749 /* PBXContainerItemProxy */;
+		};
+		B26C324A5647404AA9958B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF856A581414D6AAAB13DCC /* ZERO_CHECK */;
+			targetProxy = C61A1966FDFD4C5F85ABE598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A0DE15C65734463A0C37E47 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		0BA759D6994B4C55BE1D7EFD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", glfw_EXPORTS, _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src", "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  -fno-common   -Wall -fvisibility=hidden";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/RelWithDebInfo/libglfw.3.dylib  -framework Cocoa -framework OpenGL -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw.3.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		291E6886C528419D92C36C98 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/build";
+			};
+			name = RelWithDebInfo;
+		};
+		29A5F02D684B433EA3AB874E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4B7A9C16B51A4D1EB66C8A32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/build";
+			};
+			name = Release;
+		};
+		4EC94041809E49A891A88855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		558CF2A16E784D5589C7C64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/build";
+			};
+			name = Debug;
+		};
+		56322F1386CD4DEA87C11DE5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		56C52AE383A349F5A383CC40 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", glfw_EXPORTS, _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src", "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  -fno-common   -Wall -fvisibility=hidden";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/MinSizeRel/libglfw.3.dylib  -framework Cocoa -framework OpenGL -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw.3.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		5E27457B83764E1C92B44E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		69A69585D39640BBBE608EC2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		8F330547BCDF4A0DB6A15464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		9C13E12454074B20B3D9C5F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/Release";
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", glfw_EXPORTS, _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src", "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  -fno-common   -Wall -fvisibility=hidden";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/Release/libglfw.3.dylib  -framework Cocoa -framework OpenGL -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw.3.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		A3AF6CACF4194BBDA2D35E17 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		C82D50051BFE4930BE2F1851 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/build";
+			};
+			name = MinSizeRel;
+		};
+		F50124D34F794C6DA7D6919A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/Debug";
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", glfw_EXPORTS, _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/code/depend/GLFW-3.0.4/src", "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "   -fPIC  -fno-common   -Wall -fvisibility=hidden";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/Debug/libglfw.3.dylib  -framework Cocoa -framework OpenGL -framework IOKit -framework CoreFoundation -framework CoreVideo";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw.3.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/rickardbergeling/GitHub/Datorgrafik-Visualisering/Assignment05/build/depend/GLFW-3.0.4/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D72544AB2604F739509F1EA /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558CF2A16E784D5589C7C64A /* Debug */,
+				4B7A9C16B51A4D1EB66C8A32 /* Release */,
+				C82D50051BFE4930BE2F1851 /* MinSizeRel */,
+				291E6886C528419D92C36C98 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6DFC1B824E1C4276B34497A8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC94041809E49A891A88855 /* Debug */,
+				5E27457B83764E1C92B44E2F /* Release */,
+				A3AF6CACF4194BBDA2D35E17 /* MinSizeRel */,
+				69A69585D39640BBBE608EC2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D32833798C7A4EEA924EB2B3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F330547BCDF4A0DB6A15464 /* Debug */,
+				29A5F02D684B433EA3AB874E /* Release */,
+				0A0DE15C65734463A0C37E47 /* MinSizeRel */,
+				56322F1386CD4DEA87C11DE5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FA29C4F21A3B43B5B4103D7F /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50124D34F794C6DA7D6919A /* Debug */,
+				9C13E12454074B20B3D9C5F5 /* Release */,
+				56C52AE383A349F5A383CC40 /* MinSizeRel */,
+				0BA759D6994B4C55BE1D7EFD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA08BD68AF2A4F438C23B960 /* Project object */;
+}
